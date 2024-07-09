@@ -1,26 +1,4 @@
-@import './root.css';
-
-.header{
-    background: var(--bg-linear);
-    padding: 13px 13px 13px 18px;
-}
-
-.header_wrapper{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.header_actions{
-    gap: 10px;    
-}
-
-.header_action_box{
-    border-radius: 13px;
-    background: rgba(var(--color-rgb-white), 0.20);
-    display: flex;
-    width: 46px;
-    height: 46px;
-    justify-content: center;
-    align-items: center;
-}
+@import "./fonts.css";
+@import "./root.css";
+@import "./template_style.css";
+@import "./media.css";

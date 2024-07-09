@@ -8,9 +8,12 @@ export default {
 </script>
 
 <template>
-  <section>
+  <section class="content">
     <AppHeader />
-    <slot></slot>
+    <main class="main">
+      <slot></slot>
+    </main>
+    <AppFooter />
   </section>
 </template>
 

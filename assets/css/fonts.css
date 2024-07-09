@@ -1,0 +1,48 @@
+@font-face {
+  font-family: "TildaSans";
+  src: url("../fonts/TildaSans-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TildaSans";
+  src: url("../fonts/TildaSans-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TildaSans";
+  src: url("../fonts/TildaSans-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TildaSans";
+  src: url("../fonts/TildaSans-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TildaSans";
+  src: url("../fonts/TildaSans-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TildaSans";
+  src: url("../fonts/TildaSans-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TildaSans";
+  src: url("../fonts/TildaSans-Semibold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
