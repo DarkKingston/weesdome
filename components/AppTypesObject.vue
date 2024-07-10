@@ -1,4 +1,4 @@
-<script lang="ts">
+<script>
 import { ref } from "vue";
 import { dragscroll } from "vue-dragscroll";
 export default {

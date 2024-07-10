@@ -58,6 +58,9 @@ a:focus {
 .align-center {
   align-items: center;
 }
+.align-start {
+  align-items: flex-start;
+}
 .justify-center {
   justify-content: center;
 }

@@ -76,3 +76,16 @@
 }
 
 /* footer end */
+
+/* popular section */
+
+.popular_title {
+  margin: 16px 0;
+}
+
+.popular_wrapper {
+  overflow: hidden;
+  padding: 0 8px;
+}
+
+/* popular section end */

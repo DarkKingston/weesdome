@@ -1,14 +1,16 @@
-<script lang="ts">
+<script>
+import AppPopular from "~/components/AppPopular.vue";
 import SearchBar from "~/components/AppSeachBar.vue";
-import AppTypesObjectVue from "~/components/AppTypesObject.vue";
+import AppTypesObject from "~/components/AppTypesObject.vue";
 export default {
-  components: { SearchBar, AppTypesObjectVue },
+  components: { SearchBar, AppTypesObject, AppPopular },
 };
 </script>
 
 <template>
   <div class="main_wrapper">
     <SearchBar />
-    <AppTypesObjectVue />
+    <AppTypesObject />
+    <AppPopular />
   </div>
 </template>
