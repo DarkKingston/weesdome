@@ -125,5 +125,6 @@ function handleInput(event) {
   margin-left: 10px;
   border-radius: 25px;
   border: 1px solid var(--color-border-grey);
+  cursor: pointer;
 }
 </style>
