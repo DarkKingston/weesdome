@@ -111,6 +111,7 @@ export default {
   border-radius: 58px;
   background: var(--color-grey);
   color: var(--color-gray);
+  cursor: pointer;
 }
 .tabs_item.active {
   background: var(--color-main);
