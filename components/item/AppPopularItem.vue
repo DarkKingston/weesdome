@@ -31,6 +31,7 @@ export default {
 }
 .popular_item_title {
   margin-top: 5px;
+  max-width: 155px;
 }
 .popular_img img {
   object-fit: cover;
