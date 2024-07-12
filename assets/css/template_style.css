@@ -22,6 +22,7 @@
   height: 46px;
   justify-content: center;
   align-items: center;
+  cursor:pointer;
 }
 
 .header_logo {
