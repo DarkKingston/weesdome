@@ -50,15 +50,15 @@ export default {
   <section class="popular">
     <div class="container">
       <div class="popular_title fz-20 fw-700">Популярные проекты</div>
-    </div>
-    <div class="popular_wrapper d-flex align-start mt-14" v-dragscroll>
-      <AppPopularItem
-        v-for="(item, key) in catalog"
-        :image="item.image"
-        :text="item.text"
-        :count="item.count"
-        :key="key"
-      />
+      <div class="popular_wrapper d-flex align-start mt-14" v-dragscroll>
+        <AppPopularItem
+          v-for="(item, key) in catalog"
+          :image="item.image"
+          :text="item.text"
+          :count="item.count"
+          :key="key"
+        />
+      </div>
     </div>
   </section>
 </template>
