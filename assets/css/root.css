@@ -125,3 +125,10 @@ img {
 .mt-14 {
   margin-top: 0.88rem;
 }
+
+.line {
+  width: 100%;
+  height: 1px;
+  background: #eaeaea;
+  margin: 16px 0;
+}

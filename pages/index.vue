@@ -2,8 +2,9 @@
 import AppPopular from "~/components/AppPopular.vue";
 import SearchBar from "~/components/AppSeachBar.vue";
 import AppTypesObject from "~/components/AppTypesObject.vue";
+import AppNewObject from "~/components/AppNewObject.vue";
 export default {
-  components: { SearchBar, AppTypesObject, AppPopular },
+  components: { SearchBar, AppTypesObject, AppPopular, AppNewObject },
 };
 </script>
 
@@ -12,5 +13,7 @@ export default {
     <SearchBar />
     <AppTypesObject />
     <AppPopular />
+    <div class="line"></div>
+    <AppNewObject />
   </div>
 </template>
