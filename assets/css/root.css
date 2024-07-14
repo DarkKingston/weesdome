@@ -5,7 +5,8 @@
   --color-border-grey: #ddd;
   --color-white: #fff;
   --color-grey: #f7f7f7;
-  --color-granit: #222;
+  --color-granit: #222222;
+  --color-rgb-granit: 34, 34, 34;
   --color-gray: #717171;
   --color-main: #71a2a3;
 }
@@ -81,6 +82,9 @@ img {
 .fw-300 {
   font-weight: 300;
 }
+.fw-400 {
+  font-weight: 400;
+}
 .fw-500 {
   font-weight: 500;
 }
@@ -131,4 +135,8 @@ img {
   height: 1px;
   background: #eaeaea;
   margin: 16px 0;
+}
+
+.tt {
+  text-transform: uppercase;
 }

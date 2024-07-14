@@ -1,47 +1,47 @@
 <script>
-import AppPopularItem from "./item/AppPopularItem.vue";
+import AppNewestItem from "./item/AppNewestItem.vue";
 import { ref } from "vue";
 import { dragscroll } from "vue-dragscroll";
 export default {
-  components: { AppPopularItem },
+  components: { AppNewestItem },
   directives: {
     dragscroll,
   },
   setup() {
     const catalog = ref([
       {
-        id: 9,
-        image: "images/catalog_1.png",
+        id: 1,
+        image: "images/object_1.png",
         text: "Layan Verde",
         count: 37,
       },
       {
-        id: 8,
-        image: "images/catalog_2.png",
+        id: 2,
+        image: "images/object_2.png",
         text: "Atrium Andaman City",
         count: 37,
       },
       {
-        id: 11,
-        image: "images/catalog_3.png",
+        id: 3,
+        image: "images/object_3.png",
         text: "Ayana heights seaview residence",
         count: 37,
       },
       {
-        id: 21,
-        image: "images/catalog_4.png",
+        id: 4,
+        image: "images/object_1.png",
         text: "Sunshine Beach Resort & Residences",
         count: 37,
       },
       {
-        id: 45,
-        image: "images/catalog_5.png",
+        id: 5,
+        image: "images/object_2.png",
         text: "Layan Verde",
         count: 37,
       },
       {
-        id: 9,
-        image: "images/catalog_6.png",
+        id: 6,
+        image: "images/object_3.png",
         text: "Layan Verde",
         count: 37,
       },
@@ -55,9 +55,9 @@ export default {
 <template>
   <section class="popular">
     <div class="container">
-      <div class="popular_title fz-20 fw-700">Популярные проекты</div>
+      <div class="popular_title fz-20 fw-700">Самые дешевые виллы</div>
       <div class="popular_wrapper d-flex align-start mt-14" v-dragscroll>
-        <AppPopularItem
+        <AppNewestItem
           v-for="(item, key) in catalog"
           :id="item.id"
           :image="item.image"

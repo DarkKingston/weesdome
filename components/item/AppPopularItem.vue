@@ -1,6 +1,7 @@
 <script>
 export default {
   props: {
+    id: Number,
     image: String,
     text: String,
     count: Number,
@@ -9,13 +10,13 @@ export default {
 </script>
 
 <template>
-  <div class="popular_item">
+  <NuxtLink :to="'/objects/' + id" class="popular_item">
     <div class="popular_img">
       <NuxtImg :src="image" />
       <div class="popular_count fz-12 fw-600">{{ count }} объектов</div>
     </div>
     <div class="popular_item_title fz-16">{{ text }}</div>
-  </div>
+  </NuxtLink>
 </template>
 
 <style scoped>
