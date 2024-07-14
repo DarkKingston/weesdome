@@ -4,6 +4,7 @@
   --color-rgb-black: 0, 0, 0;
   --color-border-grey: #ddd;
   --color-white: #fff;
+  --color-black: #000;
   --color-grey: #f7f7f7;
   --color-granit: #222222;
   --color-rgb-granit: 34, 34, 34;
@@ -48,6 +49,11 @@ a:focus {
 }
 
 .container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+.container_without_space {
   max-width: 1200px;
   width: 100%;
   margin: 0 auto;

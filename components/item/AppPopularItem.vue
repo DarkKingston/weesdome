@@ -10,7 +10,7 @@ export default {
 </script>
 
 <template>
-  <NuxtLink :to="'/objects/' + id" class="popular_item">
+  <NuxtLink :to="'/catalog/' + id" class="popular_item">
     <div class="popular_img">
       <NuxtImg :src="image" />
       <div class="popular_count fz-12 fw-600">{{ count }} объектов</div>
