@@ -1,13 +1,17 @@
 <script>
 import { onMounted } from "vue";
 import Swiper from "swiper";
+import { Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
+
 export default {
-  components: { Swiper },
   setup() {
     onMounted(() => {
-      const swiper = new Swiper(".catalog_swiper", {
+      new Swiper(".catalog_swiper", {
+        modules: [Pagination],
+        direction: "horizontal",
+        slidesPerView: 1,
         pagination: {
           el: ".catalog_pagination",
           type: "fraction",

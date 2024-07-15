@@ -251,16 +251,18 @@
   border-radius: 30px;
 }
 
-.catalog_pagination {
+.catalog_swiper .catalog_pagination {
   border-radius: 58px;
   background: var(--color-grey);
   display: flex;
   padding: 8px 12px;
+  width: fit-content;
   justify-content: center;
   align-items: center;
   position: absolute;
   right: 12px;
   bottom: 12px;
+  left: auto;
   z-index: 12;
   color: rgba(var(--color-rgb-granit), 0.5);
 }
