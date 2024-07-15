@@ -29,7 +29,7 @@ export default {
 <template>
   <div class="main_wrapper_with_breadcrumbs">
     <div class="breadcrumbs d-flex align-center">
-      <div class="breadcrumbs_item fz-14 fw-600">Главная</div>
+      <NuxtLink to="/" class="breadcrumbs_item fz-14 fw-600">Главная</NuxtLink>
       <div class="breadcrumbs_delimiter">/</div>
       <div class="breadcrumbs_item fz-14 fw-600">Виллы</div>
       <div class="breadcrumbs_delimiter">/</div>
@@ -39,7 +39,7 @@ export default {
       <div class="container">
         <div class="catalog_actions d-flex align-center justify-between">
           <div class="catalog_actions_box d-flex align-center">
-            <div class="catalog_back">
+            <NuxtLink to="/" class="catalog_back">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="18"
@@ -59,7 +59,7 @@ export default {
                   </clipPath>
                 </defs>
               </svg>
-            </div>
+            </NuxtLink>
             <div class="catalog_title fz-24 fw-700">Тип А-1/2</div>
           </div>
           <div class="catalog_actions_box d-flex align-center">
