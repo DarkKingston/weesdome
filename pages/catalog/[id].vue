@@ -4,8 +4,11 @@ import Swiper from "swiper";
 import { Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
-
+import AppObject from "~/components/AppObject.vue";
 export default {
+  components: {
+    AppObject,
+  },
   setup() {
     onMounted(() => {
       new Swiper(".catalog_swiper", {
@@ -117,7 +120,7 @@ export default {
         </div>
       </div>
 
-      <div class="container">
+      <div class="container_without_space">
         <div class="catalog_object">
           <div class="catalog_object_title fz-20 fw-700">
             Бангато (Пхукет, Таиланд)
@@ -138,12 +141,56 @@ export default {
             <div class="catalog_tags_item">Обслуживание номеров</div>
           </div>
         </div>
+
+        <div class="catalog_about">
+          <div class="catalog_about_account d-flex align-center">
+            <div class="catalog_account_img">
+              <NuxtImg src="catalog_account.png" />
+            </div>
+            <div class="catalog_account_info">
+              <div class="catalog_account_info_name fz-16 fw-700">Metrics</div>
+              <div class="catalog_account_info_subtitle fz-14 fw-400">
+                7 лет в сфере
+              </div>
+            </div>
+          </div>
+          <div class="catalog_about_descr fz-12 fw-400">
+            Расположение нашей виллы тихое, и вы можете наслаждаться прекрасным
+            видом на горы с балкона главной спальни.Вы можете насладиться
+            естественным прохладным бризом на берегу моря.Семейное барбекю у
+            частного бассейнаМного места для приготовления пищи с достаточным
+            количеством еды для целой семьи. Кухня также оборудована духовкой,
+            где вы сможете приготовить вкусный ужин для своей семьи и друзей в
+            любое время.Район имеет круглосуточную охрану, и вы можете найти их,
+            независимо от ваших проблем. Это обеспечивает вам удобство и
+            безопасность вашей поездки.
+          </div>
+        </div>
+
+        <div class="catalog_same">
+          <div class="catalog_same_title fz-20 fw-700">Объекты</div>
+          <div class="catalog_same_row">
+            <div class="catalog_same_row_title fz-16 fw-400">Трехкомнатные</div>
+            <div class="catalog_same_row_wrapper d-flex align-center">
+              <div class="catalog_same_row_item fz-12 fw-700">Тип А-1</div>
+              <div class="catalog_same_row_item fz-12 fw-700">Тип А-2</div>
+              <div class="catalog_same_row_item fz-12 fw-700">Тип А-3</div>
+            </div>
+          </div>
+          <div class="catalog_same_row">
+            <div class="catalog_same_row_title fz-16 fw-400">Пентхаусы</div>
+            <div class="catalog_same_row_wrapper d-flex align-center">
+              <div class="catalog_same_row_item fz-12 fw-700">Тип В-1</div>
+              <div class="catalog_same_row_item fz-12 fw-700">Тип В-2</div>
+            </div>
+          </div>
+        </div>
       </div>
 
       <div class="line"></div>
-      <AppCheaperObject />
+      <AppObject title="Трехкомнатные" />
       <div class="line"></div>
-      <AppExpensiveObject />
+      <AppObject title="Пентхаусы" />
     </div>
   </div>
 </template>

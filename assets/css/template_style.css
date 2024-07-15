@@ -244,6 +244,7 @@
   width: 100%;
   overflow: hidden;
   position: relative;
+  background: var(--color-grey);
 }
 
 .catalog_swiper img {
@@ -268,7 +269,11 @@
 }
 
 .catalog_object {
-  margin-top: 12px;
+  padding: 16px;
+  padding-top: 12px;
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  background: var(--color-grey);
 }
 
 .catalog_tags {
@@ -285,6 +290,68 @@
 }
 .catalog_tags_item {
   color: rgba(var(--color-rgb-granit), 0.5);
+}
+
+.catalog_about {
+  margin-top: 16px;
+  padding: 16px;
+  border-radius: 30px;
+  background: var(--color-grey);
+}
+
+.catalog_about_descr {
+  margin-top: 12px;
+  color: var(--color-granit);
+}
+
+.catalog_account_img {
+  width: 40px;
+  height: 40px;
+  border-radius: 100px;
+  overflow: hidden;
+}
+
+.catalog_about_account {
+  gap: 12px;
+}
+
+.catalog_account_info_name {
+  color: var(--color-blue);
+}
+
+.catalog_account_info_subtitle {
+  color: rgba(var(--color-rgb-granit), 0.5);
+}
+
+.catalog_same {
+  margin-top: 16px;
+  padding: 20px;
+  border-radius: 30px;
+  background: var(--color-grey);
+}
+
+.catalog_same_title {
+  margin-bottom: 16px;
+  color: var(--color-black);
+}
+
+.catalog_same_row:not(:last-child) {
+  margin-bottom: 12px;
+}
+
+.catalog_same_row_wrapper {
+  margin-top: 8px;
+  gap: 8px;
+}
+
+.catalog_same_row_item {
+  border-radius: 58px;
+  background: var(--color-white);
+  color: var(--color-gray);
+  display: flex;
+  padding: 14px 20px;
+  justify-content: center;
+  align-items: center;
 }
 
 /* page catalog end */
