@@ -590,7 +590,7 @@ export default {
             mode="date"
             locale="ru-RU"
             :attributes="attrs"
-            :rows="2"
+            :columns="2"
             style="width: 100%"
           />
         </div>

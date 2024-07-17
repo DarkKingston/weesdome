@@ -436,4 +436,16 @@
   background: var(--color-grey);
 }
 
+@media (min-width: 210px) {
+  .vc-pane-layout {
+    grid-template-columns: repeat(1, auto) !important;
+  }
+}
+
+@media (min-width: 560px) {
+  .vc-pane-layout {
+    grid-template-columns: repeat(2, auto) !important;
+  }
+}
+
 /* page catalog end */
