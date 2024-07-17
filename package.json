@@ -12,9 +12,14 @@
   "dependencies": {
     "@nuxt/image": "^1.7.0",
     "@nuxtjs/google-fonts": "^3.2.0",
+    "@popperjs/core": "^2.11.8",
     "nuxt": "^3.12.3",
     "swiper": "^11.1.4",
+    "v-calendar": "^3.1.2",
     "vue": "latest",
     "vue-dragscroll": "^4.0.5"
+  },
+  "devDependencies": {
+    "@samk-dev/nuxt-vcalendar": "^1.0.4"
   }
 }

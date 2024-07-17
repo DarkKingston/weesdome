@@ -430,4 +430,10 @@
   margin-right: 8px;
 }
 
+.object_calendar {
+  padding: 16px;
+  border-radius: 30px;
+  background: var(--color-grey);
+}
+
 /* page catalog end */

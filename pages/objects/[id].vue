@@ -1,5 +1,5 @@
 <script>
-import { onMounted } from "vue";
+import { onMounted, ref } from "vue";
 import Swiper from "swiper";
 import { Pagination } from "swiper/modules";
 import "swiper/css";
@@ -10,6 +10,23 @@ export default {
     AppObject,
   },
   setup() {
+    const range = ref({
+      start: new Date(),
+      end: new Date(),
+    });
+    const attrs = ref([
+      {
+        key: "today",
+        highlight: {
+          color: "green",
+          fillMode: "solid",
+        },
+        dates: {
+          start: new Date(),
+          end: new Date(),
+        },
+      },
+    ]);
     onMounted(() => {
       new Swiper(".catalog_swiper", {
         modules: [Pagination],
@@ -22,6 +39,11 @@ export default {
         },
       });
     });
+
+    return {
+      range,
+      attrs,
+    };
   },
 };
 </script>
@@ -558,6 +580,19 @@ export default {
           <div class="catalog_comfort_btn fz-16 fw-500">
             Показать все удобства
           </div>
+        </div>
+
+        <div class="line"></div>
+
+        <div class="object_calendar">
+          <VDatePicker
+            v-model.range="range"
+            mode="date"
+            locale="ru-RU"
+            :attributes="attrs"
+            :rows="2"
+            style="width: 100%"
+          />
         </div>
       </div>
     </div>
