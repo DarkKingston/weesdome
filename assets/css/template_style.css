@@ -252,6 +252,8 @@
   overflow: hidden;
   position: relative;
   background: var(--color-grey);
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
 }
 
 .catalog_swiper img {

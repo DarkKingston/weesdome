@@ -385,12 +385,17 @@ export default {
         </div>
       </div>
 
-      <div class="line"></div>
+      <div class="container_without_space">
+        <div class="line"></div>
+      </div>
       <AppObject title="Планировка" />
-      <div class="line"></div>
+      <div class="container_without_space">
+        <div class="line"></div>
+      </div>
       <AppObject title="Где вы будете спать" />
 
       <div class="container_without_space">
+        <div class="line"></div>
         <div class="catalog_comfort">
           <div class="catalog_comfort_title fz-20 fw-700">Удобства</div>
           <div class="catalog_comfort_wrapper">
@@ -582,7 +587,9 @@ export default {
           </div>
         </div>
 
-        <div class="line"></div>
+        <div class="container_without_space">
+          <div class="line"></div>
+        </div>
 
         <div class="object_calendar">
           <VDatePicker
