@@ -444,10 +444,63 @@
   }
 }
 
-@media (min-width: 560px) {
+@media (min-width: 790px) {
   .vc-pane-layout {
     grid-template-columns: repeat(2, auto) !important;
   }
+}
+
+.vc-header .vc-title {
+  background: transparent;
+  color: #222;
+  text-align: center;
+  font-family: "TildaSans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+}
+.object_calendar .vc-container {
+  background: none;
+}
+.object_calendar .vc-bordered {
+  border: none;
+  border-radius: 0;
+}
+.vc-container .vc-weekday {
+  color: rgba(var(--color-rgb-granit), 0.5);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.is-today .vc-day-content {
+  background: none;
+  color: rgba(var(--color-rgb-granit), 50);
+  font-weight: 500;
+}
+.vc-container .is-today .vc-highlight-bg-solid {
+  background: var(--color-grey);
+  box-shadow: none;
+  border-radius: 0;
+}
+
+.vc-container .vc-day-content {
+  width: 56px;
+  height: 56px;
+  border-radius: 20px;
+}
+
+.vc-container .vc-highlight-bg-solid,
+.vc-container .vc-highlight-bg-solid,
+.vc-container .vc-highlight-content-solid {
+  background: var(--color-main) !important;
+  width: 56px;
+  height: 56px;
+  z-index: 3;
+  border-radius: 20px !important;
+  color: var(--color-white) !important;
 }
 
 /* page catalog end */

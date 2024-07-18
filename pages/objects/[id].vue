@@ -14,19 +14,13 @@ export default {
       start: new Date(),
       end: new Date(),
     });
-    const attrs = ref([
+    const disabledDates = ref([
       {
-        key: "today",
-        highlight: {
-          color: "green",
-          fillMode: "solid",
-        },
-        dates: {
-          start: new Date(),
-          end: new Date(),
-        },
+        start: null,
+        end: new Date(new Date().setDate(new Date().getDate() - 1)),
       },
     ]);
+    const attrs = ref([]);
     onMounted(() => {
       new Swiper(".catalog_swiper", {
         modules: [Pagination],
@@ -43,6 +37,7 @@ export default {
     return {
       range,
       attrs,
+      disabledDates,
     };
   },
 };
@@ -597,6 +592,7 @@ export default {
             mode="date"
             locale="ru-RU"
             :attributes="attrs"
+            :disabled-dates="disabledDates"
             :columns="2"
             style="width: 100%"
           />
