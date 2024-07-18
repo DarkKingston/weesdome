@@ -187,9 +187,13 @@ export default {
         </div>
       </div>
 
-      <div class="line"></div>
+      <div class="container_without_space">
+        <div class="line"></div>
+      </div>
       <AppObject title="Трехкомнатные" />
-      <div class="line"></div>
+      <div class="container_without_space">
+        <div class="line"></div>
+      </div>
       <AppObject title="Пентхаусы" />
     </div>
   </div>

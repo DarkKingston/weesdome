@@ -22,11 +22,17 @@ export default {
     <SearchBar />
     <AppTypesObject />
     <AppPopular />
-    <div class="line"></div>
+    <div class="container_without_space">
+      <div class="line"></div>
+    </div>
     <AppNewObject />
-    <div class="line"></div>
+    <div class="container_without_space">
+      <div class="line"></div>
+    </div>
     <AppCheaperObject />
-    <div class="line"></div>
+    <div class="container_without_space">
+      <div class="line"></div>
+    </div>
     <AppExpensiveObject />
   </div>
 </template>
