@@ -10,21 +10,23 @@ export default {
 </script>
 
 <template>
-  <NuxtLink :to="'/catalog/' + id" class="popular_item">
-    <div class="popular_img">
-      <NuxtImg :src="image" />
-      <div class="popular_count fz-12 fw-600">{{ count }} объектов</div>
-    </div>
-    <div class="popular_item_title fz-16">{{ text }}</div>
-  </NuxtLink>
+  <div class="swiper-slide">
+    <NuxtLink :to="'/catalog/' + id" class="popular_item">
+      <div class="popular_img">
+        <NuxtImg :src="image" />
+        <div class="popular_count fz-12 fw-600">{{ count }} объектов</div>
+      </div>
+      <div class="popular_item_title fz-16">{{ text }}</div>
+    </NuxtLink>
+  </div>
 </template>
 
 <style scoped>
 .popular_img {
-  height: 152px;
-  min-width: 152px;
-  min-height: 152px;
-  width: 168px;
+  max-width: 190px;
+  max-height: 190px;
+  width: 100%;
+  height: 100%;
   position: relative;
   border-radius: 29px;
   overflow: hidden;
