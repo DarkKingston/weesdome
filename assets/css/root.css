@@ -13,6 +13,10 @@
   --color-blue: #0085ff;
 }
 
+.vc-container .vc-highlight-content-light {
+  color: #71a2a3 !important;
+}
+
 * {
   margin: 0;
   padding: 0;
