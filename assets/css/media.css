@@ -3,3 +3,18 @@
     padding: 0 8px;
   }
 }
+
+@media(min-width: 590px) {
+  .catalog_swiper {
+    display: none;
+  }
+  .catalog_object{
+    padding-top: 0;
+  }
+}
+
+@media(max-width: 590.99px){
+  .catalog_gallery{
+    display: none;
+  }
+}

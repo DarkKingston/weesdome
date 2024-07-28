@@ -5,12 +5,16 @@ import { Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 import AppObject from "~/components/AppObject.vue";
+import { Fancybox } from "@fancyapps/ui";
+import "@fancyapps/ui/dist/fancybox/fancybox.css";
 export default {
   components: {
     AppObject,
+    Fancybox
   },
   setup() {
-    onMounted(() => {
+
+    function initSwiper(){
       new Swiper(".catalog_swiper", {
         modules: [Pagination],
         direction: "horizontal",
@@ -21,8 +25,28 @@ export default {
           clickable: true,
         },
       });
+    }
+
+    function initFancy(){
+      Fancybox.bind("[data-fancybox='gallery']", {
+      });
+      Fancybox.bind("[data-fancybox='gallery_mob']", {
+      });
+    }
+
+    function openGallery(){
+      Fancybox.fromSelector('[data-fancybox="gallery"]');
+    }
+
+    onMounted(() => {
+      initSwiper();
+      initFancy();
     });
-  },
+
+    return{
+      openGallery
+    }
+  }
 };
 </script>
 
@@ -104,16 +128,46 @@ export default {
       </div>
 
       <div class="container_without_space">
+
+        <div class="catalog_gallery">
+          <a class="catalog_gallery_big" href="/images/desktop/object_big.png" data-fancybox="gallery">
+            <NuxtImg src="images/desktop/object_big.png"/>
+          </a>
+          <div class="catalog_gallery_box">
+            <a class="catalog_gallery_item" href="/images/object_1.png" data-fancybox="gallery">
+              <NuxtImg src="images/object_1.png"/>
+            </a>
+            <a class="catalog_gallery_item" href="/images/object_2.png" data-fancybox="gallery">
+              <NuxtImg src="images/object_2.png"/>
+            </a>
+            <a class="catalog_gallery_item" href="/images/object_1.png" data-fancybox="gallery">
+              <NuxtImg src="images/object_1.png"/>
+            </a>
+            <a class="catalog_gallery_item" href="/images/object_3.png" data-fancybox="gallery">
+              <NuxtImg src="images/object_3.png"/>
+            </a>
+          </div>
+          <div class="btn_white btn_view_all fz-16 fw-500" @click="openGallery">
+            Показать все фото
+          </div>
+        </div>
+
         <div class="catalog_swiper">
           <div class="swiper-wrapper">
             <div class="swiper-slide">
-              <NuxtImg src="images/object_1.png" />
+              <a href="/images/object_1.png" data-fancybox="gallery_mob">
+                <NuxtImg src="images/object_1.png" />
+              </a>
             </div>
             <div class="swiper-slide">
-              <NuxtImg src="images/object_2.png" />
+              <a href="/images/object_2.png" data-fancybox="gallery_mob">
+                <NuxtImg src="images/object_2.png" />
+              </a>
             </div>
             <div class="swiper-slide">
-              <NuxtImg src="images/object_3.png" />
+              <a href="/images/object_3.png" data-fancybox="gallery_mob">
+                <NuxtImg src="images/object_3.png" />
+              </a>
             </div>
           </div>
           <div class="swiper-pagination catalog_pagination fz-14 fw-600"></div>

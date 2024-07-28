@@ -1,7 +1,7 @@
 <script lang="ts">
 export default {
   setup() {
-    console.log(6556);
+
     return {};
   },
 };
