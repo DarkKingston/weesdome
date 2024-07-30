@@ -34,5 +34,9 @@ export default {
       <div class="line"></div>
     </div>
     <AppExpensiveObject />
+    <div class="container_without_space">
+      <div class="line"></div>
+    </div>
+    <AppOurServices/>
   </div>
 </template>

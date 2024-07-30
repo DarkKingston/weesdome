@@ -141,6 +141,12 @@ img {
 .mt-14 {
   margin-top: 0.88rem;
 }
+.mb-0{
+  margin-bottom: 0;
+}
+.mt-0{
+  margin-top: 0;
+}
 
 .line {
   width: 100%;

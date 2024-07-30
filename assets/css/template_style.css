@@ -620,3 +620,12 @@
 }
 
 /* styled gallery desktop end */
+
+/* styled our services */
+
+.subtitle{
+  color: var(--color-gray);
+  margin-top: 4px;
+}
+
+/* styled our services end */
