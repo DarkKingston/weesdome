@@ -672,3 +672,41 @@
 }
 
 /* styled our services end */
+
+/* styled steps */
+
+.steps{
+  margin-top: 32px;
+  margin-bottom: 32px;
+  position: relative;
+}
+
+.step_swiper{
+  position: relative;
+  margin-top: 16px;
+  overflow: hidden;
+}
+
+.step_slide_wrapper{
+  padding: 24px;
+  border-radius: 30px;
+  background: var(--color-grey);
+}
+
+.step_slide_subtitle{
+  margin-top: 12px;
+}
+
+.step_slide_title{
+  margin-top: 16px;
+}
+
+.step_counter{
+  border-radius: 12px;
+  border: 1px solid var(--color-white-line);
+  background: var(--color-white);
+  padding: 8px 15px 8px 16px;
+  width: fit-content;
+}
+
+/* styled steps end */

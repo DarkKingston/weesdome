@@ -1,9 +1,7 @@
 <script>
 import AppNewestItem from "./item/AppNewestItem.vue";
 import {onMounted, ref} from "vue";
-import { dragscroll } from "vue-dragscroll";
 import Swiper from "swiper";
-import {Navigation} from "swiper/modules";
 export default {
   components: { AppNewestItem },
   setup() {
