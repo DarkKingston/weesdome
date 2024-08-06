@@ -6,11 +6,13 @@ import AppNewObject from "~/components/AppNewObject.vue";
 import AppCheaperObject from "~/components/AppCheaperObject.vue";
 import AppExpensiveObject from "~/components/AppExpensiveObject.vue";
 import AppStepWork from "~/components/AppStepWork.vue";
+import AppWhyInvest from "~/components/AppWhyInvest.vue";
 export default {
   components: {
     SearchBar,
     AppTypesObject,
     AppPopular,
+    AppWhyInvest,
     AppNewObject,
     AppStepWork,
     AppCheaperObject,
@@ -41,5 +43,6 @@ export default {
     </div>
     <AppOurServices/>
     <AppStepWork />
+    <AppWhyInvest/>
   </div>
 </template>

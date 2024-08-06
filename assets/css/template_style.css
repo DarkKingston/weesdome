@@ -710,3 +710,50 @@
 }
 
 /* styled steps end */
+
+/* styled invest */
+
+.invest{
+  border-radius: 30px;
+  background: var(--bg-linear);
+  position: relative;
+}
+
+.invest_wrapper{
+  padding: 24px 8px;
+  position: relative;
+}
+
+.invest_swiper{
+  margin-top: 16px;
+  position: relative;
+  overflow: hidden;
+}
+
+.invest_swiper .swiper-slide{
+  height: auto;
+}
+
+.invest_img{
+  max-width: 170px;
+  max-height: 90px;
+  min-height: 90px;
+  display: flex;
+  align-items: center;
+  border-radius: 16px;
+  background: var(--color-grey-v2);
+}
+
+.invest_slide_wrapper{
+  border-radius: 20px;
+  background: var(--color-white);
+  padding: 20px;
+  height: 100%;
+}
+
+.invest_title,
+.invest_subtitle{
+  color: var(--color-white);
+}
+
+/* styled invest end */
