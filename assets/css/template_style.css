@@ -757,3 +757,44 @@
 }
 
 /* styled invest end */
+
+/* styled partners */
+
+.partners{
+  position: relative;
+  margin: 32px 0;
+}
+
+.partners_wrapper{
+  position: relative;
+  border-radius: 30px;
+  background: var(--color-grey);
+  padding: 24px 8px;
+}
+
+.partners_subtitle{
+  margin-top: 4px;
+}
+
+.partners_box{
+  margin-top: 16px;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  gap: 8px;
+}
+
+.partners_item{
+  display: flex;
+  align-items: center;
+  padding: 20px 0px;
+  border-radius: 20px;
+  border: 1px solid var(--color-white-line);
+  background: var(--color-white);
+}
+
+.partners_item img{
+  border-radius: 30px;
+  overflow: hidden;
+}
+
+/* styled partners end */

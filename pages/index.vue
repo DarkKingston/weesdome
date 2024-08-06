@@ -7,12 +7,14 @@ import AppCheaperObject from "~/components/AppCheaperObject.vue";
 import AppExpensiveObject from "~/components/AppExpensiveObject.vue";
 import AppStepWork from "~/components/AppStepWork.vue";
 import AppWhyInvest from "~/components/AppWhyInvest.vue";
+import AppOurPartners from "~/components/AppOurPartners.vue";
 export default {
   components: {
     SearchBar,
     AppTypesObject,
     AppPopular,
     AppWhyInvest,
+    AppOurPartners,
     AppNewObject,
     AppStepWork,
     AppCheaperObject,
@@ -44,5 +46,6 @@ export default {
     <AppOurServices/>
     <AppStepWork />
     <AppWhyInvest/>
+    <AppOurPartners/>
   </div>
 </template>
