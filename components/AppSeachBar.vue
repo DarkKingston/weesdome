@@ -22,7 +22,7 @@ function handleInput(event) {
 
 <template>
   <div class="container">
-    <div class="search-bar">
+    <div class="search-bar transition" :class="{active: isInputActive}">
       <div class="search-input">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -82,7 +82,6 @@ function handleInput(event) {
   justify-content: space-between;
   background-color: var(--color-grey);
   padding: 10px 10px 10px 20px;
-  margin: 0 8px;
   min-height: 56px;
   border-radius: 1000px;
   position: relative;
@@ -127,4 +126,5 @@ function handleInput(event) {
   border: 1px solid var(--color-border-grey);
   cursor: pointer;
 }
+
 </style>

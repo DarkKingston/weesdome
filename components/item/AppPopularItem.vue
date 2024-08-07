@@ -50,7 +50,7 @@ export default {
   justify-content: center;
   align-items: center;
   position: absolute;
-  bottom: 17px;
-  right: 9px;
+  bottom: 16px;
+  right: 16px;
 }
 </style>

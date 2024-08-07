@@ -65,7 +65,7 @@ export default {
                   <NuxtImg src="/images/services.png" />
                 </div>
 
-                <div class="service_slide_btn fz-16 fw-600">
+                <div class="service_slide_btn fz-16 fw-600 transition">
                   Получить консультацию
                 </div>
 
@@ -76,18 +76,18 @@ export default {
               <div class="services_slide_wrapper">
 
                 <div class="service_slide_title fz-20 fw-700">
-                  Подбор апартаментов
+                  Аренда
                 </div>
 
                 <div class="service_slide_subtitle fz-15 fw-500">
-                  Наш 15 летний опыт гарантирует лучший подбор аппартаментов в Тайланде
+                  С нашей помощью можно быстро и выгодно арендовать объекты недвижимости в Тайланде
                 </div>
 
                 <div class="service_slide_img">
-                  <NuxtImg src="/images/services.png" />
+                  <NuxtImg src="/images/services2.png" />
                 </div>
 
-                <div class="service_slide_btn fz-16 fw-600">
+                <div class="service_slide_btn fz-16 fw-600 transition">
                   Получить консультацию
                 </div>
 
@@ -98,18 +98,18 @@ export default {
               <div class="services_slide_wrapper">
 
                 <div class="service_slide_title fz-20 fw-700">
-                  Подбор апартаментов
+                  Инвестиции
                 </div>
 
                 <div class="service_slide_subtitle fz-15 fw-500">
-                  Наш 15 летний опыт гарантирует лучший подбор аппартаментов в Тайланде
+                  Получайте высокий пассивный доход, ежегодно, благодаря выгодной инвестиции в недвижимость в Тайланде (от 7% гарантированной доходности)
                 </div>
 
                 <div class="service_slide_img">
-                  <NuxtImg src="/images/services.png" />
+                  <NuxtImg src="/images/services3.png" />
                 </div>
 
-                <div class="service_slide_btn fz-16 fw-600">
+                <div class="service_slide_btn fz-16 fw-600 transition">
                   Получить консультацию
                 </div>
 

@@ -26,6 +26,21 @@
   box-sizing: border-box;
 }
 
+.transition{
+  transition: ease-in-out all 0.17s;
+}
+.transition:hover{
+  transition: ease-in-out all 0.17s;
+}
+.tabs_item:hover:not(.active), .search-bar:hover:not(.active){
+  background: rgba(var(--color-rgb-black), .10);
+}
+
+.service_slide_btn:hover{
+  background: var(--color-main);
+  color: var(--color-white);
+}
+
 html,
 body,
 #__nuxt,
