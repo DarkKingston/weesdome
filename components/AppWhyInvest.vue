@@ -43,8 +43,8 @@ export default {
 </script>
 
 <template>
-  <section class="invest">
-    <div class="container_without_space">
+  <div class="container_without_space">
+    <section class="invest">
       <div class="invest_wrapper">
         <div class="invest_title fz-28 fw-700 tac">Почему стоит инвестировать в недвижимость в Таиланде?</div>
         <div class="invest_subtitle fz-16 fw-700 mt-8 tac"><strong>Недвижимость</strong> — самый безопасный актив</div>
@@ -110,6 +110,6 @@ export default {
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
+  </div>
 </template>

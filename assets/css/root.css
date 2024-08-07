@@ -1,5 +1,6 @@
 :root {
   --bg-linear: linear-gradient(0deg, #71a2a3 0%, #71a2a3 100%), #1ed760;
+  --bg-linear-2: linear-gradient(84deg, #71A2A3 44.94%, #99CACB 100%), #F7F7F7;
   --color-rgb-white: 255, 255, 255;
   --color-rgb-black: 0, 0, 0;
   --color-border-grey: #ddd;
@@ -170,6 +171,9 @@ img {
 }
 .mt-8{
   margin-top: 8px;
+}
+.mb-8{
+  margin-bottom: 8px;
 }
 
 .line {

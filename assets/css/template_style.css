@@ -630,12 +630,25 @@
 .services_slide_wrapper{
   border-radius: 30px;
   padding: 24px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
   background: var(--color-grey);
+}
+.services_swiper .swiper-slide{
+  height: initial;
 }
 .services_slide_wrapper.services_active{
   background: linear-gradient(211deg, var(--color-main) 37.74%, var(--color-secondary) 81.13%);
 }
-
+.service_slide_img{
+  flex: 1;
+}
+.service_slide_img img{
+  width: -webkit-fill-available;
+  height: auto;
+  margin: 0 auto;
+}
 .service_slide_title{
   color: var(--color-granit);
 }
@@ -798,3 +811,144 @@
 }
 
 /* styled partners end */
+
+/* styled consult */
+
+.consult{
+  border-radius: 30px;
+  background: var(--bg-linear-2);
+  display: flex;
+  padding: 24px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  align-self: stretch;
+}
+
+.consult_title{
+  color: var(--color-white);
+}
+
+.consult_info{
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  border-radius: 80px 20px;
+  background: var(--color-white);
+  gap: 24px;
+}
+
+.consult_info_main{
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.consult_name, .consult_info_txt_title{
+  color: var(--color-granit);
+}
+.consult_position{
+  margin-top: 8px;
+  color: var(--color-gray);
+}
+
+.consult_info_menu_item{
+  padding-left: 16px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.consult_info_menu_list{
+  margin-top: 8px;
+}
+.consult_img{
+  border-radius: 40px;
+  overflow: hidden;
+  min-width: 120px;
+  min-height: 120px;
+}
+.consult_info_menu_item::before{
+  position: absolute;
+  content: '';
+  width: 2px;
+  display: block;
+  height: 2px;
+  top: 50%;
+  left: 8px;
+  transform: translateY(-50%);
+  background: var(--color-granit);
+}
+
+.consult_box{
+  margin-top: 24px;
+}
+
+.consult_box_item:not(:last-child){
+  margin-bottom: 16px;
+}
+
+.consult_box_label{
+  border-radius: 100px;
+  background: var(--color-grey);
+  min-width: 32px;
+  min-height: 32px;
+  max-width: 32px;
+  max-height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px;
+}
+
+.consult_box_label svg{
+  width: 100%;
+  height: 100%;
+}
+
+.consult_box_item{
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: var(--color-white);
+}
+
+.consult_btn{
+  border-radius: 100px;
+  border: 1px solid var(--color-main);
+  background: var(--color-white);
+  display: flex;
+  padding: 17px 24px 18px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  align-self: stretch;
+  color: var(--color-gray);
+  margin-top: 24px;
+  cursor: pointer;
+}
+
+.news_slide_wrapper{
+  border-radius: 20px;
+  background: var(--color-grey);
+}
+
+.news_slide_img{
+  border-radius: 20px 20px 0px 0px;
+  height: 110px;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.news_slide_container{
+  padding: 16px;
+}
+
+.news_slide_title{
+  color: var(--color-granit);
+}
+
+.news_slide_date{
+  color: rgba(var(--color-rgb-granit), 0.50);
+}
+
+/* styled consult end */

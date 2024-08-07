@@ -9,6 +9,8 @@ import AppStepWork from "~/components/AppStepWork.vue";
 import AppWhyInvest from "~/components/AppWhyInvest.vue";
 import AppOurPartners from "~/components/AppOurPartners.vue";
 import AppTypesSell from "~/components/AppTypesSell.vue";
+import AppConsult from "~/components/AppConsult.vue";
+import AppNews from "~/components/AppNews.vue";
 export default {
   components: {
     SearchBar,
@@ -21,6 +23,8 @@ export default {
     AppStepWork,
     AppCheaperObject,
     AppExpensiveObject,
+    AppConsult,
+    AppNews
   },
 };
 </script>
@@ -50,5 +54,10 @@ export default {
     <AppStepWork />
     <AppWhyInvest/>
     <AppOurPartners/>
+    <AppConsult/>
+    <div class="container_without_space">
+      <div class="line"></div>
+    </div>
+    <AppNews/>
   </div>
 </template>
