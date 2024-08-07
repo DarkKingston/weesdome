@@ -46,14 +46,20 @@
 
 .footer {
   background: var(--bg-linear);
-  padding: 13px 5px 13px 10px;
+  padding: 30px 0;
   margin-top: 20px;
 }
 
 .footer_wrapper {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+}
+
+.footer_subtitle{
+  margin-top: 4px;
+  color: var(--color-white);
 }
 
 .footer_actions {
@@ -75,9 +81,10 @@
 }
 .footer_contact {
   color: rgba(var(--color-rgb-white), 1);
-  font-style: normal;
-  font-weight: 600;
-  line-height: 1.25rem;
+  max-width: 298px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 32px;
 }
 
 /* footer end */
