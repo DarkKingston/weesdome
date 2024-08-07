@@ -10,28 +10,28 @@ export default {
       new Swiper(".news_swiper", {
         direction: "horizontal",
         slidesPerView: 3,
-        spaceBetween: 12,
+        spaceBetween: 8,
         breakpoints: {
           1040:{
-            slidesPerView: 3,
+            slidesPerView: 4,
           },
           815:{
-            slidesPerView: 2.4,
+            slidesPerView: 3.4,
           },
           700:{
-            slidesPerView: 2.1,
+            slidesPerView: 3.1,
           },
           580:{
-            slidesPerView: 1.9,
+            slidesPerView: 2.9,
           },
           445:{
-            slidesPerView: 1.4,
+            slidesPerView: 2.4,
           },
           400:{
-            slidesPerView: 1.2
+            slidesPerView: 2.3
           },
           230:{
-            slidesPerView: 1.1
+            slidesPerView: 2.2
           }
         }
       });
