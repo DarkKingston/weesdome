@@ -1,0 +1,50 @@
+export const langContent ={
+    'RU': {
+        login: 'Войти в аккаунт',
+        labelUser: 'Логин или Email',
+        labelPass: 'Пароль',
+        delimiter: 'или',
+        auth: 'Авторизоваться',
+        register: 'Нет аккаунта?',
+        registerLink: 'Зарегистрируйтесь',
+        passRecover: 'Забыли пароль?',
+        general: 'Общие',
+        users: 'Сотрудники',
+        location: 'Локации',
+        company: 'Моя компания',
+        settings: 'Настройки',
+        error: 'Необходимо заполнить'
+    },
+    'RO': {
+        login: 'Autentificați-vă în contul dvs.',
+        labelUser: 'Autentificare sau e-mail',
+        labelPass: 'Parola',
+        delimiter: 'sau',
+        auth: 'Conectați-vă',
+        register: 'Nu aveți cont?',
+        registerLink: 'Înscrieți-vă',
+        passRecover: 'Parolă uitată?',
+        general: 'General',
+        users: 'Useri',
+        location: 'Locations',
+        company: 'Compania mea',
+        settings: 'Setari',
+        error: 'Trebuie să completați'
+    },
+    'EN': {
+        login: 'Sign in to your account',
+        labelUser: 'Login or Email',
+        labelPass: 'Password',
+        delimiter: 'or',
+        auth: 'Authorize',
+        register: 'No account?',
+        registerLink: 'Register',
+        passRecover: 'Forgot password?',
+        general: 'General',
+        users: 'Users',
+        location: 'Locații',
+        company: 'Company',
+        settings: 'Settings',
+        error: 'You need to fill out'
+    }
+}

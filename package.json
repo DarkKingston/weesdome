@@ -1,0 +1,39 @@
+{
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build && vite build --ssr"
+    },
+    "devDependencies": {
+        "@vitejs/plugin-vue": "^5.1.2",
+        "axios": "^1.6.4",
+        "laravel-vite-plugin": "^1.0.5",
+        "lodash": "^4.17.19",
+        "postcss": "^8.1.14",
+        "sass": "^1.77.4",
+        "sass-loader": "^14.2.1",
+        "unplugin-vue-define-options": "^1.4.9",
+        "vite": "^5.4.0",
+        "vue-loader": "^16.8.3"
+    },
+    "dependencies": {
+        "@fancyapps/ui": "^5.0.36",
+        "@fortawesome/fontawesome-svg-core": "^6.5.2",
+        "@fortawesome/free-solid-svg-icons": "^6.5.2",
+        "@fortawesome/vue-fontawesome": "^3.0.8",
+        "@inertiajs/inertia": "^0.11.1",
+        "@inertiajs/inertia-vue3": "^0.6.0",
+        "@inertiajs/progress": "^0.2.7",
+        "@inertiajs/vue3": "^1.2.0",
+        "@vue/server-renderer": "^3.4.37",
+        "click-outside-vue3": "^4.0.1",
+        "fancybox": "^3.0.1",
+        "pinia": "^2.1.7",
+        "swiper": "^11.1.9",
+        "vue": "^3.4.27",
+        "vue-dragscroll": "^4.0.5",
+        "vue-flatpickr-component": "^11.0.5",
+        "vuedraggable": "^2.24.3"
+    }
+}
