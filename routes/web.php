@@ -14,5 +14,7 @@ use Inertia\Inertia;
 */
 
 Route::get('/', [\App\Http\Controllers\IndexController::class, 'index'])->name('index');
+Route::get('/news', [\App\Http\Controllers\IndexController::class, 'news'])->name('news');
+Route::get('/news/{id}', [\App\Http\Controllers\IndexController::class, 'newsItem'])->name('newsItem');
 Route::get('/object/{id}', [\App\Http\Controllers\IndexController::class, 'object'])->name('object');
 Route::get('/catalog/{id}', [\App\Http\Controllers\IndexController::class, 'catalog'])->name('catalog');
