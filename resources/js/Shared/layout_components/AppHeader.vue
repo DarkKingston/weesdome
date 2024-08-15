@@ -15,7 +15,7 @@ export default {
                     <img src="/assets/logo.svg" alt="" />
                 </Link>
                 <div class="header_actions d-flex align-center">
-                    <div class="header_actions_heart header_action_box">
+                    <Link href="/favorite" class="header_actions_heart header_action_box">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
                             width="24"
@@ -29,7 +29,7 @@ export default {
                                 stroke-width="1.5"
                             />
                         </svg>
-                    </div>
+                    </Link>
                     <div class="header_actions_personal header_action_box">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"

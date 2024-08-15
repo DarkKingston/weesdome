@@ -18,3 +18,4 @@ Route::get('/news', [\App\Http\Controllers\IndexController::class, 'news'])->nam
 Route::get('/news/{id}', [\App\Http\Controllers\IndexController::class, 'newsItem'])->name('newsItem');
 Route::get('/object/{id}', [\App\Http\Controllers\IndexController::class, 'object'])->name('object');
 Route::get('/catalog/{id}', [\App\Http\Controllers\IndexController::class, 'catalog'])->name('catalog');
+Route::get('/favorite', [\App\Http\Controllers\IndexController::class, 'favorite'])->name('favorite');

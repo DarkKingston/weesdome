@@ -15,6 +15,10 @@ class IndexController extends Controller
         return Inertia::render('News');
     }
 
+    public function favorite(){
+        return Inertia::render('Favorite');
+    }
+
     public function newsItem($id){
         $object = ['id'=>$id, 'title' => 'Новость'.$id];
         return Inertia::render('NewsItem', [
