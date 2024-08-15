@@ -2,12 +2,14 @@
     --bg-linear: linear-gradient(0deg, #71a2a3 0%, #71a2a3 100%), #1ed760;
     --bg-linear-2: linear-gradient(84deg, #71A2A3 44.94%, #99CACB 100%), #F7F7F7;
     --color-rgb-white: 255, 255, 255;
+    --color-rgb-shadow: 113, 162, 163;
     --color-rgb-black: 0, 0, 0;
     --color-border-grey: #ddd;
     --color-white: #fff;
     --color-black: #000;
     --color-grey: #f7f7f7;
     --color-grey-v2: #F8F8F8;
+    --color-grey-v3: #F2F2F2;
     --color-granit: #222222;
     --color-rgb-granit: 34, 34, 34;
     --color-gray: #717171;
@@ -72,6 +74,7 @@ body {
 
 main {
     flex: 1;
+    position: relative;
     background: var(--bg-linear);
 }
 

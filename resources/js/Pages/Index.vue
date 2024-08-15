@@ -11,6 +11,8 @@ import AppOurPartners from "../Shared/components/AppOurPartners.vue";
 import AppTypesSell from "../Shared/components/AppTypesSell.vue";
 import AppConsult from "../Shared/components/AppConsult.vue";
 import AppNews from "../Shared/components/AppNews.vue";
+import CalcProfit from "../Shared/components/popups/CalcProfit.vue";
+import ContactOwner from "../Shared/components/popups/ContactOwner.vue";
 export default {
     components: {
         SearchBar,
@@ -24,7 +26,9 @@ export default {
         AppCheaperObject,
         AppExpensiveObject,
         AppConsult,
-        AppNews
+        AppNews,
+        CalcProfit,
+        ContactOwner
     },
 };
 </script>
@@ -59,5 +63,11 @@ export default {
             <div class="line"></div>
         </div>
         <AppNews/>
+
+        <div class="popup">
+            <div class="popup_container">
+                <ContactOwner/>
+            </div>
+        </div>
     </div>
 </template>
