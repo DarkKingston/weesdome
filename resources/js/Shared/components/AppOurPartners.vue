@@ -10,7 +10,7 @@ export default {
 
 <template>
   <section class="partners">
-    <div class="container">
+    <div class="container_without_space">
       <div class="partners_wrapper">
 
         <div class="partners_title tac fz-28 fw-700">

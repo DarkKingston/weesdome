@@ -12,6 +12,95 @@
     padding-top: 0;
   }
 }
+@media(min-width: 1200px){
+    .fz-28{
+        font-size: 32px;
+        line-height: 120%;
+    }
+    .fz-16{
+        font-size: 20px;
+        line-height: 130%;
+    }
+    .fz-20{
+        font-size: 24px;
+        line-height: 120%;
+    }
+    .fz-15{
+        font-size: 17px;
+        line-height: 130%;
+    }
+    .service_slide_btn.fz-16{
+        font-size: 1rem;
+        line-height: normal;
+    }
+    .services_swiper, .step_swiper{
+        display: none;
+    }
+    .services_wrapper{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        margin-top: 20px;
+    }
+    .service_box{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+        height: 297px;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .service_slide_btn{
+        margin: 0;
+        margin-top: 40px;
+    }
+
+    .service_box_item{
+        max-width: 310px;
+        width: 100%;
+    }
+
+    .service_box_img{
+        width: 100%;
+        height: 100%;
+        max-width: 495px;
+    }
+    .service_box_img img{
+        object-fit: cover;
+    }
+
+    .step_wrapper{
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        gap: 20px;
+    }
+    .consult_wrapper{
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+    .consult_title_mob{
+        display: none;
+    }
+    .consult_title{
+        margin-bottom: 40px;
+    }
+    .consult_btn{
+        width: fit-content;
+    }
+    .consult_info{
+        max-width: 432px;
+        width: 100%;
+    }
+}
+
+@media(max-width: 1200px){
+    .services_wrapper{
+        display: none;
+    }
+}
 
 @media(max-width: 590.99px){
   .catalog_gallery{

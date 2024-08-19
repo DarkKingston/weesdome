@@ -209,6 +209,9 @@ img {
 .mb-8 {
     margin-bottom: 8px;
 }
+.ml-4{
+    margin-left: 4px;
+}
 
 .line {
     width: 100%;

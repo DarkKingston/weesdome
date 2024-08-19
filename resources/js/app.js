@@ -7,6 +7,8 @@ import vClickOutside from "click-outside-vue3"
 import FontAwesomeIcon from './plugins/font-awesome';
 import 'swiper/swiper-bundle.css';
 import '/resources/css/style.css';
+import VueTippy from 'vue-tippy'
+import 'tippy.js/dist/tippy.css'
 InertiaProgress.init()
 const pinia = createPinia();
 createInertiaApp({
@@ -19,6 +21,11 @@ createInertiaApp({
     setup({ el, App, props, plugin }) {
         createSSRApp({ render: () => h(App, props) })
             .use(plugin)
+            .use(VueTippy,
+                {
+                    directive: 'tippy', // => v-tippy
+                }
+            )
             .use(pinia)
             .use(vClickOutside)
             .component('font-awesome-icon', FontAwesomeIcon)

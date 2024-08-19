@@ -44,9 +44,64 @@ export default {
 <template>
   <section class="popular">
     <div class="container">
-      <div class="popular_title fz-20 fw-700 mb-0">Наши услуги</div>
+      <div class="popular_title fz-28 fw-700 mb-0">Наши услуги</div>
       <div class="subtitle fz-16 fw-400">Чем мы можем быть вам полезны</div>
       <div class="no_overflow">
+          <div class="services_wrapper">
+              <div class="services_slide_wrapper service_box services_active">
+
+                 <div class="service_box_item">
+                     <div class="service_slide_title fz-20 fw-700">
+                         Подбор апартаментов
+                     </div>
+
+                     <div class="service_slide_subtitle fz-15 fw-500">
+                         Наш 15 летний опыт гарантирует лучший подбор аппартаментов в Тайланде
+                     </div>
+                     <div class="service_slide_btn fz-16 fw-600 transition">
+                         Получить консультацию
+                     </div>
+                 </div>
+                  <div class="service_box_img">
+                      <img src="/assets/images/services.png" />
+                  </div>
+              </div>
+              <div class="services_slide_wrapper service_box">
+                  <div class="service_box_item">
+                      <div class="service_slide_title fz-20 fw-700">
+                          Аренда
+                      </div>
+                      <div class="service_slide_subtitle fz-15 fw-500">
+                      С нашей помощью можно быстро и выгодно арендовать объекты недвижимости в Тайланде
+                  </div>
+                      <div class="service_slide_btn fz-16 fw-600 transition">
+                          Получить консультацию
+                      </div>
+                  </div>
+                  <div class="service_box_img">
+                      <img src="/assets/images/services2.png" />
+                  </div>
+              </div>
+              <div class="services_slide_wrapper service_box">
+
+                  <div class="service_box_item">
+                      <div class="service_slide_title fz-20 fw-700">
+                          Инвестиции
+                      </div>
+                      <div class="service_slide_subtitle fz-15 fw-500">
+                          Получайте высокий пассивный доход, ежегодно, благодаря выгодной инвестиции в недвижимость в Тайланде (от 7% гарантированной доходности)
+                      </div>
+                      <div class="service_slide_btn fz-16 fw-600 transition">
+                          Получить консультацию
+                      </div>
+                  </div>
+
+                  <div class="service_box_img">
+                      <img src="/assets/images/services3.png" />
+                  </div>
+
+              </div>
+          </div>
         <div class="services_swiper">
           <div class="swiper-wrapper">
 
@@ -62,7 +117,7 @@ export default {
                 </div>
 
                 <div class="service_slide_img">
-                  <NuxtImg src="/images/services.png" />
+                  <img src="/assets/images/services.png" />
                 </div>
 
                 <div class="service_slide_btn fz-16 fw-600 transition">
@@ -84,7 +139,7 @@ export default {
                 </div>
 
                 <div class="service_slide_img">
-                  <NuxtImg src="/images/services2.png" />
+                  <img src="/assets/images/services2.png" />
                 </div>
 
                 <div class="service_slide_btn fz-16 fw-600 transition">
@@ -106,7 +161,7 @@ export default {
                 </div>
 
                 <div class="service_slide_img">
-                  <NuxtImg src="/images/services3.png" />
+                  <img src="/assets/images/services3.png" />
                 </div>
 
                 <div class="service_slide_btn fz-16 fw-600 transition">

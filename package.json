@@ -34,6 +34,7 @@
         "vue": "^3.4.27",
         "vue-dragscroll": "^4.0.5",
         "vue-flatpickr-component": "^11.0.5",
+        "vue-tippy": "^6.4.4",
         "vuedraggable": "^2.24.3"
     }
 }

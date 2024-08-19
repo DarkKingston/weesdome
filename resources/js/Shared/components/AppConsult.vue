@@ -11,7 +11,7 @@ export default {
 <template>
   <div class="container_without_space">
     <section class="consult">
-      <div class="consult_title fz-28 fw-400">
+      <div class="consult_title consult_title_mob fz-28 fw-400">
         Бесплатная юридическая консультация и <strong>полное сопровождение</strong>
       </div>
       <div class="consult_wrapper">
@@ -45,6 +45,9 @@ export default {
           </div>
         </div>
         <div class="consult_box">
+            <div class="consult_title fz-28 fw-400">
+                Бесплатная юридическая консультация и <strong>полное сопровождение</strong>
+            </div>
           <div class="consult_box_menu">
             <div class="consult_box_item fz-20 fw-400">
               <div class="consult_box_label">

@@ -9,6 +9,7 @@ import AppStepWork from "../Shared/components/AppStepWork.vue";
 import AppWhyInvest from "../Shared/components/AppWhyInvest.vue";
 import AppOurPartners from "../Shared/components/AppOurPartners.vue";
 import AppTypesSell from "../Shared/components/AppTypesSell.vue";
+import AppOurServices from "../Shared/components/AppOurServices.vue";
 import AppConsult from "../Shared/components/AppConsult.vue";
 import AppNews from "../Shared/components/AppNews.vue";
 import CalcProfit from "../Shared/components/popups/CalcProfit.vue";
@@ -28,7 +29,8 @@ export default {
         AppConsult,
         AppNews,
         CalcProfit,
-        ContactOwner
+        ContactOwner,
+        AppOurServices
     },
 };
 </script>
@@ -67,6 +69,11 @@ export default {
         <div class="popup">
             <div class="popup_container">
                 <ContactOwner/>
+            </div>
+        </div>
+        <div class="popup">
+            <div class="popup_container">
+                <CalcProfit/>
             </div>
         </div>
     </div>
