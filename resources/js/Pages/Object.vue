@@ -28,6 +28,8 @@ export default {
             },
         ]);
         const attrs = ref([]);
+
+
         onMounted(() => {
             new Swiper(".catalog_swiper", {
                 modules: [Pagination],

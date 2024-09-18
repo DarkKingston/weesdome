@@ -31,6 +31,7 @@
         "fancybox": "^3.0.1",
         "pinia": "^2.1.7",
         "swiper": "^11.1.9",
+        "v-calendar": "^3.1.2",
         "vue": "^3.4.27",
         "vue-dragscroll": "^4.0.5",
         "vue-flatpickr-component": "^11.0.5",

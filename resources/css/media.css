@@ -75,6 +75,7 @@
         display: grid;
         grid-template-columns: repeat(2, auto);
         gap: 20px;
+        margin-top: 20px;
     }
     .consult_wrapper{
         display: flex;
@@ -93,6 +94,9 @@
     .consult_info{
         max-width: 432px;
         width: 100%;
+    }
+    .tabs{
+        gap: 8px !important;
     }
 }
 

@@ -9,6 +9,9 @@ import 'swiper/swiper-bundle.css';
 import '/resources/css/style.css';
 import VueTippy from 'vue-tippy'
 import 'tippy.js/dist/tippy.css'
+import VCalendar from 'v-calendar';
+import 'v-calendar/dist/style.css';
+
 InertiaProgress.init()
 const pinia = createPinia();
 createInertiaApp({
@@ -26,6 +29,7 @@ createInertiaApp({
                     directive: 'tippy', // => v-tippy
                 }
             )
+            .use(VCalendar, {})
             .use(pinia)
             .use(vClickOutside)
             .component('font-awesome-icon', FontAwesomeIcon)
